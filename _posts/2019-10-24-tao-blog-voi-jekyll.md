@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Tạo blog với Jekyll
-tags: [web, tuts]
-comment: true
+category: "Tutorials"
+tags: [Web, Tutorials]
+date: 2019-10-24
+comments: true
 ---
 
 Trên mạng đã có rất nhiều bài hướng dẫn tạo web tĩnh bằng Jekyll và bản thân blog của mình cũng là kết quả của những bài hướng dẫn đó. Vì thế hôm nay mình quyết định viết bài hướng dẫn theo ý hiểu riêng của mình sao cho thật ngắn gọn và dễ hiểu :3 !  
