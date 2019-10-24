@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: ANPT Blog
+title: Hi,I'm Truong An
 
 # Short description of your site
-description: Nơi lưu lại những điều hay ho!
+description: Software Developer - Blogger
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
@@ -58,7 +58,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-    name: Some Person
+    name: Phạm An
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -67,8 +67,8 @@ author:
 social-network-links:
     rss: false
     email: "pham.an.20.09@gmail.com"
-    facebook: facebook.com/anpt1992
-    github: github.com/anpt1992
+    facebook: anpt1992
+    github: anpt1992
 #    twitter: daattali
 #  reddit: yourname
 #  linkedin: daattali
@@ -91,7 +91,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com" # eg. "deanattali.com/beautiful-jekyll"
+#url-pretty: "anpt1992.github.io" # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
