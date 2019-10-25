@@ -7,7 +7,7 @@ date: 2019-10-24
 comments: true
 ---
 
-Ở [phần một](https://anpt1992.github.io/) các bạn đã biết được cách tạo ra 1 trang web tĩnh mà cụ thể là trang blog. Ở phần hai này chúng ta sẽ cùng tìm hiểu về những thiết lập nâng cao hơn.
+Ở [phần một](https://anpt1992.github.io/2019-10-24-tao-blog-voi-jekyll-p1/) các bạn đã biết được cách tạo ra 1 trang web tĩnh mà cụ thể là trang blog. Ở phần hai này chúng ta sẽ cùng tìm hiểu về những thiết lập nâng cao hơn.
 
 ## Gắn khung comments
 
