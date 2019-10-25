@@ -22,6 +22,6 @@ Sau khi tạo xong, các bạn vào file **\_config.yml** trong mã nguồn củ
 ![config](https://xveurq.by.files.1drv.com/y4mcg4PR6EcVt1URUh3KBmYGfV-QMd7RB4N9ZUaCj5nV0EfpvcLW4hkwCijxkSTAVp8GkIX3RPZibB0VMGBsDUbovZqiahvCRoSGEC0CvN1z_TRavHnDLPz3i4QvD8gWo04wmK2PDTMZ7wz8R80VIXLC4-hdSZKYVa0GePEVm8Whrm_rID9Nu-hj80c_w723bLCjtU2fUh4QI8am0QGKncJsQ?width=743&height=213&cropmode=none){: .center-block :}
 Cuối cùng, các bạn vào một bài viết thêm vào tham số **comments:true** như bên dưới rồi lưu bài viết.  
 ![comment](https://w1eurq.by.files.1drv.com/y4mzKnyAdZ_YqhfZfOZXF4AjSwyJnP4hwg2Z-rW26DfxTU7iwEgMkgIbkSEZrxjCnAvb89tu3SkAoMEE0Ohn89Y8SH0ZCrVL7HcZc6dpedtktWxp2Yob4EtQpFErim-oJJN0AP-o5NfCkgsXDJt45VwZGSGcfTzx-_lK3LpYG9HXB5OLUlm42cFRMwmMKiZ25InG8OanyGfe2BVq4hKEPubDw?width=310&height=157&cropmode=none)  
-Và đây là kết quả nếu bạn thao tác đúng :D
+Và đây là kết quả nếu bạn thao tác đúng :D  
 ![result](https://wleurq.by.files.1drv.com/y4moGnb1vIM35GGiUlseuNrD1XfiXM2Ek_0vEd2pOgvdGb8LHWv4ApJXRYxK6XRNpR9kGjNpgHDkbmaZw1TPSaQ0oC2fDWQjzyplMxFpJqlEoHEcEuSIUyHWMPwaseSKO-3ZmwGLtQQFwFsaJPse3pZqQQFPDy3w5eHU7j1g4uPyj81vtzgSWNwn5g10sOCLXuSzwq0jL0OhYA_hvnkUTfD9w?width=1331&height=619&cropmode=none)  
 Nếu các bạn gặp vấn đề hoặc có gì thắc mắc thì cứ tự nhiên comment bên dưới, chúng ta cùng nhau thảo luận :3 !
