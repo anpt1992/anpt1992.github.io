@@ -4,7 +4,6 @@ title: "Search"
 subtitle: Feeling lost? Look for things in my blog.
 ---
 
-<div id="search-box">
 <script>
   (function() {
     var cx = '005057661448466884132:dtcv7abqpyt';
@@ -16,6 +15,5 @@ subtitle: Feeling lost? Look for things in my blog.
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<div class="gcse-search">
-</div>
-</div>
+
+<gcse:search></gcse:search>
