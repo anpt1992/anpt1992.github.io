@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tạo blog với Jekyll
+title: Tạo blog với Jekyll(P1)
 category: "Tutorials"
 tags: [Web, Tutorials]
 date: 2019-10-24
