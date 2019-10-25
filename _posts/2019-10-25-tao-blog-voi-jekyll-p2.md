@@ -3,7 +3,7 @@ layout: post
 title: Tạo blog với Jekyll(P2)
 category: "Tutorials"
 tags: [Web, Tutorials]
-date: 2019-10-24
+date: 2019-10-25
 comments: true
 ---
 
