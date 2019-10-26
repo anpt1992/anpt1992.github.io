@@ -244,6 +244,13 @@ prose:
                   label: "Publish"
                   help: "Check to publish post, uncheck to hide."
 
+# Tipue search settings
+tipue_search:
+    include:
+        pages: true
+    exclude:
+        files: [search.html]
+
 plugins:
     - jekyll-paginate
     - jekyll-sitemap
