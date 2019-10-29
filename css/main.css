@@ -153,6 +153,15 @@ img {
   height: 40px;
 }
 
+input[placeholder="Tìm bài viết"]{
+  width: 100%; 
+  padding: 0px; 
+  border: none; 
+  margin: 0px; 
+  height: auto;   
+  outline: none; 
+}
+
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
