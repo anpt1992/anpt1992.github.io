@@ -3,7 +3,10 @@ _site
 .sass-cache
 .vagrant
 
+
 # general
 .DS_Store
 Thumbs.db
 ehthumbs.db
+demo
+node_modules
