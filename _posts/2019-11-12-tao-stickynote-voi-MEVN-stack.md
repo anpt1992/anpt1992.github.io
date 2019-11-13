@@ -10,13 +10,12 @@ Gần đây mình có nhận làm 1 project NodeJS, sau quá trình tìm hiểu 
 nhiều điều mới lạ nên muốn ghi lại vừa để mình nhớ vừa có thể giúp được ai đó
 đang cần :D. Ở bài viết này chúng mình sẽ cùng nhau tạo một webapp đơn giản (Sticky note) với MEVN stack.  
 MEVN stack được hiểu là bộ combo các công nghệ (**M**ongoDB, **E**xpressJS, **V**ueJS, **N**odeJS) trong đó MongoDB đóng vai trò là database, ExpressJS là back-end, VueJS là front-end, NodeJS là môi trường
-vận hành.
-
-1. [Cấu trúc project MEVN stack](#section1)
-2. [Thiết lập frontend với VueJS](#section2)
-3. [Thiết lập backend với ExpressJS](#section3)
-4. [Thiết lập liên kết (Routing)](#section4)
-5. [Dùng thư viện axios kết nối frontend backend](#section5)
+vận hành.  
+[1. Cấu trúc project MEVN stack](#section1)  
+[2. Thiết lập frontend với VueJS](#section2)  
+[3. Thiết lập backend với ExpressJS](#section3)  
+[4. Thiết lập liên kết (Routing)](#section4)  
+[5. Dùng thư viện axios kết nối frontend backend](#section5)
 
 ## 1. Cấu trúc project MEVN stack<a name="section1"></a>
 
