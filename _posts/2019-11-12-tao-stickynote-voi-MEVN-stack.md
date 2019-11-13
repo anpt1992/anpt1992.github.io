@@ -276,5 +276,6 @@ Bài cũng dài rồi, chúng ta cùng điểm lại những gì đã làm đư�
 - Dùng axios để kết nối frontend và backend
 - Bước đầu gọi được API đơn giản từ backend
 
+[Github code mẫu cho bạn nào cần nhé](https://github.com/anpt1992/demo/tree/master/mevn_stickynote_p1)  
 Ở phần kế chúng ta sẽ tìm hiểu về cơ sở dữ liệu MongoDB cũng như cách ứng dụng nó vào MEVN stack mà cụ thể hơn là ứng dụng Stickynote và dùng css để làm ứng dụng Stickynote thêm lung linh hơn :3  
 Tạm biệt các bạn và hẹn gặp lại ở bài sau!
