@@ -13,15 +13,17 @@ MEVN stack được hiểu là bộ combo các công nghệ (**M**ongoDB, **E**x
 vận hành.
 
 1. [Cấu trúc project MEVN stack](#section1)
-2. Thiết lập frontend với VueJS
-3. Thiết lập backend với ExpressJS
-4. Thiết lập liên kết (Routing)
-5. Dùng thư viện axios kết nối frontend backend
+2. [Thiết lập frontend với VueJS](#section2)
+3. [Thiết lập backend với ExpressJS](#section3)
+4. [Thiết lập liên kết (Routing)](#section4)
+5. [Dùng thư viện axios kết nối frontend backend](#section5)
 
-# 1. Cấu trúc project MEVN stack<a name="section1"></a>
+## 1. Cấu trúc project MEVN stack<a name="section1"></a>
 
-Cấu trúc project gồm 2 thư mục: client -> dành cho frontend và server -> dành cho backend.  
-**2. Thiết lập frontend với VueJS**  
+Cấu trúc project gồm 2 thư mục: client -> dành cho frontend và server -> dành cho backend.
+
+## 2. Thiết lập frontend với VueJS<a name="section2"></a>
+
 Cài đặt vue/cli và khởi tạo project trong thư mục client
 
 ```bash
@@ -72,8 +74,10 @@ export default {
 </style>
 ```
 
-Bước tiếp theo chúng ta sẽ thiết lập backend.  
-**3. Thiết lập backend với ExpressJS**  
+Bước tiếp theo chúng ta sẽ thiết lập backend.
+
+## 3. Thiết lập backend với ExpressJS<a name="section3"></a>
+
 Tại thư mục gốc của project, tạo thư mục server sau đó vào thư mục server vừa tạo để cài đặt ExpressJS.
 
 ```bash
@@ -132,8 +136,10 @@ app.listen(process.env.PORT || 8081); // backend sẽ chạy ở port 8081 (clie
 ```
 
 Chạy lệnh **yarn start** để khởi động nodemon. Truy cập vào link [http://localhost:8081/todo](http://localhost:8081/), sẽ thấy kết quả là ["Thing 1","Thing 2"].  
-Tới đây chúng ta đã chuẩn bị xong về frontend với VueJS và backend với ExpressJS. Sau đây chúng ta sẽ thiết lập liên kết cho VueJS.  
-**4. Thiết lập liên kết (Routing)**  
+Tới đây chúng ta đã chuẩn bị xong về frontend với VueJS và backend với ExpressJS. Sau đây chúng ta sẽ thiết lập liên kết cho VueJS.
+
+## 4. Thiết lập liên kết (Routing)<a name="section4"></a>
+
 Quay trở lại thư mục **client/src** và tạo thư mục tên là **router** để lưu thiết lập các link của VueJS.
 Vào thư mục **components** tạo file ToDo.vue với nội dung như sau:
 
@@ -182,7 +188,9 @@ export default new Router({
 ```
 
 Nếu mọi thiết lập đều chính xác thì khi truy cập vào [http://localhost:8080/#/todo](http://localhost:8080/#/todo) sẽ thấy dòng chữ Hello World.
-**5. Dùng thư viện axios kết nối frontend backend**
+
+## 5. Dùng thư viện axios kết nối frontend backend<a name="section5"></a>
+
 Để frontend giao tiếp với backend thì cần HTTP request từ frontend gọi vào backend và thư viện axios sẽ giúp chúng ta làm điều đó.
 
 ```bash
