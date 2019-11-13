@@ -13,33 +13,31 @@ nhiều điều mới lạ nên muốn ghi lại vừa để mình nhớ vừa c
 trò là database, ExpressJS là back-end, VueJS là front-end, NodeJS là môi trường
 vận hành.
 
-- Cấu trúc project MEVN stack
-- Thiết lập frontend với VueJS
-- Thiết lập backend với ExpressJS
-- Thiết lập liên kết (Routing)
-- Dùng thư viện axios kết nối frontend backend
+1. Cấu trúc project MEVN stack
+2. Thiết lập frontend với VueJS
+3. Thiết lập backend với ExpressJS
+4. Thiết lập liên kết (Routing)
+5. Dùng thư viện axios kết nối frontend backend
 
-**Cấu trúc project MEVN stack**
-Cấu trúc project gồm 2 thư mục: client -> dành cho frontend và server -> dành cho backend.
-**Thiết lập frontend với VueJS**
+**1. Cấu trúc project MEVN stack**  
+Cấu trúc project gồm 2 thư mục: client -> dành cho frontend và server -> dành cho backend.  
+**2. Thiết lập frontend với VueJS**  
 Cài đặt vue/cli và khởi tạo project trong thư mục client
 
 ```bash
 # dùng npm hoặc yarn tùy sở thích nghe
-npm install -g @vue/cli
+npm install -g @vue/cli=
 # OR
 yarn global add @vue/cli
 # Lúc điền thông tin project nhớ chọn cài vue-router
 vue init webpack client
 ```
 
-sau khi chạy lệnh vue init webpack client thì sẽ hiện một số câu hỏi thiết lập, lúc điền thông tin project nhớ chọn cài vue-router nếu các bạn không có điều chỉnh gì khác thì cứ enter đến khi hiện progress bar tải các gói thư viện.
+Sau khi chạy lệnh **vue init webpack client** thì sẽ hiện một số câu hỏi thiết lập, lúc điền thông tin project nhớ chọn cài **vue-router** nếu các bạn không có điều chỉnh gì khác thì cứ enter đến khi hiện progress bar tải các gói thư viện.  
 Nếu cài đặt thành công sẽ hiện thông báo:
 
 {: .box-note}
-
-# Project initialization finished!
-
+Project initialization finished!
 To get started:
 cd client
 npm run dev
@@ -51,7 +49,7 @@ cd client
 yarn start
 ```
 
-sau đó truy cập vào link: [http://localhost:8080/](http://localhost:8080/) sẽ thấy trang mặc định của VueJS
+Sau đó truy cập vào link: [http://localhost:8080/](http://localhost:8080/) sẽ thấy trang mặc định của VueJS
 Kế tiếp: vào file src/App.vue để sửa lại trang mặc định như đoạn code dưới đây:
 
 ```javascript
@@ -74,8 +72,8 @@ export default {
 </style>
 ```
 
-Bước tiếp theo chúng ta sẽ thiết lập backend.
-**Thiết lập backend với ExpressJS**
+Bước tiếp theo chúng ta sẽ thiết lập backend.  
+**3. Thiết lập backend với ExpressJS**  
 Tại thư mục gốc của project, tạo thư mục server sau đó vào thư mục server vừa tạo để cài đặt ExpressJS.
 
 ```bash
@@ -87,7 +85,7 @@ yarn init #khởi tạo thông tin cho project, nếu muốn mặc định cứ 
 {: .box-note}
 question entry point (index.js): #tùy chọn file js khởi động expressjs chúng ta chọn app.js
 
-Sau khi điền xong thông tin backend, yarn sẽ tự động tạo file package.json để lưu danh sách các thư viện cần dùng.
+Sau khi điền xong thông tin backend, yarn sẽ tự động tạo file package.json để lưu danh sách các thư viện cần dùng.  
 Ngoài ExpressJS, chúng ta cần cài thêm một số thư viện:
 
 - nodemon(tự khởi động lại nodejs sau mỗi lần chỉnh sửa file)
@@ -133,9 +131,9 @@ console.log("Your backend locate at http://localhost:8081/");
 app.listen(process.env.PORT || 8081); // backend sẽ chạy ở port 8081 (client is already running on 8080)
 ```
 
-chạy lệnh **yarn start** để khởi động nodemon. Truy cập vào link [http://localhost:8081/todo](http://localhost:8081/), sẽ thấy kết quả là ["Thing 1","Thing 2"].
-Tới đây chúng ta đã chuẩn bị xong về frontend với VueJS và backend với ExpressJS. Sau đây chúng ta sẽ thiết lập liên kết cho VueJS.
-**Thiết lập liên kết (Routing)**
+Chạy lệnh **yarn start** để khởi động nodemon. Truy cập vào link [http://localhost:8081/todo](http://localhost:8081/), sẽ thấy kết quả là ["Thing 1","Thing 2"].  
+Tới đây chúng ta đã chuẩn bị xong về frontend với VueJS và backend với ExpressJS. Sau đây chúng ta sẽ thiết lập liên kết cho VueJS.  
+**4. Thiết lập liên kết (Routing)**  
 Quay trở lại thư mục **client/src** và tạo thư mục tên là **router** để lưu thiết lập các link của VueJS.
 Vào thư mục **components** tạo file ToDo.vue với nội dung như sau:
 
@@ -184,7 +182,7 @@ export default new Router({
 ```
 
 Nếu mọi thiết lập đều chính xác thì khi truy cập vào [http://localhost:8080/#/todo](http://localhost:8080/#/todo) sẽ thấy dòng chữ Hello World.
-**Dùng thư viện axios kết nối frontend backend**
+**5. Dùng thư viện axios kết nối frontend backend**
 Để frontend giao tiếp với backend thì cần HTTP request từ frontend gọi vào backend và thư viện axios sẽ giúp chúng ta làm điều đó.
 
 ```bash
@@ -254,8 +252,7 @@ export default {
 </style>
 ```
 
-Truy cập vào [http://localhost:8080/#/todo](http://localhost:8080/#/todo) nếu ra kết quả như hình bên dưới thì chúc mừng bạn đã thành công! Lỡ đen không ra đúng thì cũng đừng rối, hãy kiểm tra lại các hàm, các file, bấm F12 trên chrome, chọn console để xem thông báo lỗi và hãy chắc chắn rằng cả backend lẫn frontend đều đang được bật.
-
+Truy cập vào [http://localhost:8080/#/todo](http://localhost:8080/#/todo) nếu ra kết quả như hình bên dưới thì chúc mừng bạn đã thành công! Lỡ đen không ra đúng thì cũng đừng rối, hãy kiểm tra lại các hàm, các file, bấm F12 trên chrome, chọn console để xem thông báo lỗi và hãy chắc chắn rằng cả backend lẫn frontend đều đang được bật.  
 Bài cũng dài rồi, chúng ta cùng điểm lại những gì đã làm được:
 
 - Tạo frontend với VueJS
@@ -264,5 +261,5 @@ Bài cũng dài rồi, chúng ta cùng điểm lại những gì đã làm đư�
 - Dùng axios để kết nối frontend và backend
 - Bước đầu gọi được API đơn giản từ backend
 
-Ở phần kế chúng ta sẽ tìm hiểu về cơ sở dữ liệu MongoDB cũng như cách ứng dụng nó vào MEVN stack mà cụ thể hơn là ứng dụng Stickynote và dùng css để làm ứng dụng Stickynote thêm lung linh hơn :3
+Ở phần kế chúng ta sẽ tìm hiểu về cơ sở dữ liệu MongoDB cũng như cách ứng dụng nó vào MEVN stack mà cụ thể hơn là ứng dụng Stickynote và dùng css để làm ứng dụng Stickynote thêm lung linh hơn :3  
 Tạm biệt các bạn và hẹn gặp lại ở bài sau!
