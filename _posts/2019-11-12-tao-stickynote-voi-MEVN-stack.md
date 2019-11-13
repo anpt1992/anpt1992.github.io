@@ -2,6 +2,7 @@
 layout: post
 title: Tạo sticky note với MEVN stack(P1)
 category: "Tutorials"
+bigimg: /img/MEVN.jpg
 tags: [Web, Tutorials]
 date: 2019-11-12
 ---
@@ -10,7 +11,10 @@ Gần đây mình có nhận làm 1 project NodeJS, sau quá trình tìm hiểu 
 nhiều điều mới lạ nên muốn ghi lại vừa để mình nhớ vừa có thể giúp được ai đó
 đang cần :D. Ở bài viết này chúng mình sẽ cùng nhau tạo một webapp đơn giản (Sticky note) với MEVN stack.  
 MEVN stack được hiểu là bộ combo các công nghệ (**M**ongoDB, **E**xpressJS, **V**ueJS, **N**odeJS) trong đó MongoDB đóng vai trò là database, ExpressJS là back-end, VueJS là front-end, NodeJS là môi trường
-vận hành.  
+vận hành.
+
+## Mục lục
+
 [1. Cấu trúc project MEVN stack](#section1)  
 [2. Thiết lập frontend với VueJS](#section2)  
 [3. Thiết lập backend với ExpressJS](#section3)  
@@ -50,7 +54,8 @@ cd client
 yarn start
 ```
 
-Sau đó truy cập vào link: [http://localhost:8080/](http://localhost:8080/) sẽ thấy trang mặc định của VueJS
+Sau đó truy cập vào link: [http://localhost:8080/](http://localhost:8080/) sẽ thấy trang mặc định của VueJS  
+![defaultpage](https://wvheww.by.files.1drv.com/y4m6EPrB40ZvACsNVI6H2b-5xWCUfITs7Adv3M-hhaIMdsnwon-3SbEL2yIki30-58NqpbCr1oRa3_IduEbnLLjaKy2AY_xBy86ON0vvYykCjWED2Pl4qEUc9NgwQ_f3NNA3cyKYYfgAI6qDzLM4c6CkxUPeIo5cPQz0jrqt7y6KMHr2KgeVkhHr9d9qNEklN08OptcI_OruhQvVC2_oI9MPg?width=1366&height=768&cropmode=none)  
 Kế tiếp: vào file src/App.vue để sửa lại trang mặc định như đoạn code dưới đây:
 
 ```javascript
@@ -77,7 +82,8 @@ Bước tiếp theo chúng ta sẽ thiết lập backend.
 
 ## 3. Thiết lập backend với ExpressJS<a name="section3"></a>
 
-Tại thư mục gốc của project, tạo thư mục server sau đó vào thư mục server vừa tạo để cài đặt ExpressJS.
+Tại thư mục gốc của project, tạo thư mục server sau đó vào thư mục server vừa tạo để cài đặt ExpressJS.  
+![structureBE](https://wfheww.by.files.1drv.com/y4mPx7ongzwYWADCv3rLACOHYdVHS9vc4PppTB-ZTgyPEpW0_6K-RpRbgRrGyDiOPLLff4akpH24CDZ1toVWQYvDZob1lCtscbVrPicPucfZEenSosGn9huxZf0psPl-69LiwTgapD7VgRhqrtLIKuh65MyEQpx9MfG_fXCKpyjMNeazE8kafTu779oJOj5RlTBajdnqXv3XjMUWF1dWQ0NCw?width=284&height=151&cropmode=none)
 
 ```bash
 mkdir server
@@ -259,7 +265,9 @@ export default {
 </style>
 ```
 
-Truy cập vào [http://localhost:8080/#/todo](http://localhost:8080/#/todo) nếu ra kết quả như hình bên dưới thì chúc mừng bạn đã thành công! Lỡ đen không ra đúng thì cũng đừng rối, hãy kiểm tra lại các hàm, các file, bấm F12 trên chrome, chọn console để xem thông báo lỗi và hãy chắc chắn rằng cả backend lẫn frontend đều đang được bật.  
+Truy cập vào [http://localhost:8080/#/todo](http://localhost:8080/#/todo) nếu ra kết quả như hình bên dưới thì chúc mừng bạn đã thành công!  
+![result](https://v1heww.by.files.1drv.com/y4m-Pqdc4xjDDHGzEpZZKj6r4lndeIJhT_MdMWnbg8Owih3nkvTeDpR1iyfxkKLveze3AgYV1zSZ2TdF-esot-D_Qc7ThGvl8IkGRmGHKqfRhfRNfHjiGcTHvhFcRU48d23sduDahnd-DhDzXEUZgt97zNxlyzuMyeiMTh-nNs-2dELnEAsDjXiDzHj5rK06-J9dr8Div_kMjUyltU2j0ulYg?width=1385&height=691&cropmode=none)  
+Lỡ đen không ra đúng thì cũng đừng rối, hãy kiểm tra lại các hàm, các file, bấm F12 trên chrome, chọn console để xem thông báo lỗi và hãy chắc chắn rằng cả backend lẫn frontend đều đang được bật.  
 Bài cũng dài rồi, chúng ta cùng điểm lại những gì đã làm được:
 
 - Tạo frontend với VueJS
