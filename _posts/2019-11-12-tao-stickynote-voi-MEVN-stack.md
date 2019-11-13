@@ -2,11 +2,11 @@
 layout: post
 title: Tạo sticky note với MEVN stack(P1)
 category: "Tutorials"
-bigimg: /img/MEVN.jpg
 tags: [Web, Tutorials]
 date: 2019-11-12
 ---
 
+![mevn](https://vlheww.by.files.1drv.com/y4mZ2nuEu4rL2dQU6_P1S53KPT2g1dO_-QGIViYGIPLgyEqQm--0Qa35hageMthH6oyZRZ5qVwP1sFfHGQVsIv3S2up8CTqWvp3ICJ8JgFujgsmVPfvOs-7y3Zqrh5b9yxkmYqDblVrf17Z-cUlnuBOz4p5X7USkVWjsRUnGLMjmZBnsrA9YRo4Xk9f18wsE0j86WkQKhTM_prpzKLOk2Lriw?width=1193&height=533&cropmode=none)  
 Gần đây mình có nhận làm 1 project NodeJS, sau quá trình tìm hiểu cũng học được
 nhiều điều mới lạ nên muốn ghi lại vừa để mình nhớ vừa có thể giúp được ai đó
 đang cần :D. Ở bài viết này chúng mình sẽ cùng nhau tạo một webapp đơn giản (Sticky note) với MEVN stack.  
@@ -194,7 +194,7 @@ export default new Router({
 
 Nếu mọi thiết lập đều chính xác thì khi truy cập vào [http://localhost:8080/#/todo](http://localhost:8080/#/todo) sẽ thấy dòng chữ Hello World.
 
-## 5. Dùng thư viện axios kết nối frontend backend<a name="section5"></a>
+## 5. Dùng thư viện axios kết nối frontend và backend<a name="section5"></a>
 
 Để frontend giao tiếp với backend thì cần HTTP request từ frontend gọi vào backend và thư viện axios sẽ giúp chúng ta làm điều đó.
 
