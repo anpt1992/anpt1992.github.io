@@ -8,38 +8,38 @@ date: 2019-11-12
 
 Gần đây mình có nhận làm 1 project NodeJS, sau quá trình tìm hiểu cũng học được
 nhiều điều mới lạ nên muốn ghi lại vừa để mình nhớ vừa có thể giúp được ai đó
-đang cần :D. Ở bài viết này chúng mình sẽ cùng nhau tạo một webapp đơn giản (Sticky note) với MEVN stack. MEVN stack được hiểu là bộ combo các công nghệ
-(**M**ongoDB, **E**xpressJS, **V**ueJS, **N**odeJS) trong đó MongoDB đóng vai
-trò là database, ExpressJS là back-end, VueJS là front-end, NodeJS là môi trường
+đang cần :D. Ở bài viết này chúng mình sẽ cùng nhau tạo một webapp đơn giản (Sticky note) với MEVN stack.  
+MEVN stack được hiểu là bộ combo các công nghệ (**M**ongoDB, **E**xpressJS, **V**ueJS, **N**odeJS) trong đó MongoDB đóng vai trò là database, ExpressJS là back-end, VueJS là front-end, NodeJS là môi trường
 vận hành.
 
-1. Cấu trúc project MEVN stack
+1. [Cấu trúc project MEVN stack](#section1)
 2. Thiết lập frontend với VueJS
 3. Thiết lập backend với ExpressJS
 4. Thiết lập liên kết (Routing)
 5. Dùng thư viện axios kết nối frontend backend
 
-**1. Cấu trúc project MEVN stack**  
+# 1. Cấu trúc project MEVN stack<a name="section1"></a>
+
 Cấu trúc project gồm 2 thư mục: client -> dành cho frontend và server -> dành cho backend.  
 **2. Thiết lập frontend với VueJS**  
 Cài đặt vue/cli và khởi tạo project trong thư mục client
 
 ```bash
 # dùng npm hoặc yarn tùy sở thích nghe
-npm install -g @vue/cli=
+npm install -g @vue/cli
 # OR
 yarn global add @vue/cli
 # Lúc điền thông tin project nhớ chọn cài vue-router
 vue init webpack client
 ```
 
-Sau khi chạy lệnh **vue init webpack client** thì sẽ hiện một số câu hỏi thiết lập, lúc điền thông tin project nhớ chọn cài **vue-router** nếu các bạn không có điều chỉnh gì khác thì cứ enter đến khi hiện progress bar tải các gói thư viện.  
+Sau khi chạy lệnh **vue init webpack client** thì sẽ hiện một số câu hỏi thiết lập, lúc điền thông tin project nhớ chọn cài **vue-router**, nếu các bạn không có điều chỉnh gì khác thì cứ enter đến khi hiện progress bar tải các gói thư viện.  
 Nếu cài đặt thành công sẽ hiện thông báo:
 
 {: .box-note}
-Project initialization finished!
-To get started:
-cd client
+Project initialization finished!  
+To get started:  
+cd client  
 npm run dev
 
 Để kiểm tra vue chạy ổn hay chưa chúng ta làm theo hướng dẫn:
