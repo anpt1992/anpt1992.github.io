@@ -56,7 +56,7 @@ yarn start
 
 Sau đó truy cập vào link: [http://localhost:8080/](http://localhost:8080/) sẽ thấy trang mặc định của VueJS  
 ![defaultpage](https://wvheww.by.files.1drv.com/y4m6EPrB40ZvACsNVI6H2b-5xWCUfITs7Adv3M-hhaIMdsnwon-3SbEL2yIki30-58NqpbCr1oRa3_IduEbnLLjaKy2AY_xBy86ON0vvYykCjWED2Pl4qEUc9NgwQ_f3NNA3cyKYYfgAI6qDzLM4c6CkxUPeIo5cPQz0jrqt7y6KMHr2KgeVkhHr9d9qNEklN08OptcI_OruhQvVC2_oI9MPg?width=1366&height=768&cropmode=none)  
-Kế tiếp: vào file src/App.vue để sửa lại trang mặc định như đoạn code dưới đây:
+Kế tiếp: vào file **client/src/App.vue** để sửa lại trang mặc định như đoạn code dưới đây:
 
 ```javascript
 <template>
@@ -106,7 +106,7 @@ Ngoài ExpressJS, chúng ta cần cài thêm một số thư viện:
 yarn add express body-parser cors morgan nodemon
 ```
 
-Để cấu hình nodemon, mở file package.json tìm dòng "main": "app.js", thêm đoạn code sau vào bên dưới
+Để cấu hình nodemon, mở file **server/package.json** tìm dòng "main": "app.js", thêm đoạn code sau vào bên dưới
 
 ```javascript
 "scripts": {
@@ -115,7 +115,7 @@ yarn add express body-parser cors morgan nodemon
  },
 ```
 
-Tạo thư mục src và file app.js bên trong có nội dung như sau:
+Tạo thư mục **server/src** và **file app.js** bên trong có nội dung như sau:
 
 ```javascript
 // gọi các thư viện (import dependencies)
@@ -146,7 +146,7 @@ Tới đây chúng ta đã chuẩn bị xong về frontend với VueJS và backe
 ## 4. Thiết lập liên kết (Routing)<a name="section4"></a>
 
 Quay trở lại thư mục **client/src** và tạo thư mục tên là **router** để lưu thiết lập các link của VueJS.
-Vào thư mục **components** tạo file ToDo.vue với nội dung như sau:
+Vào thư mục **components** tạo file **ToDo.vue** với nội dung như sau:
 
 ```javascript
 <template lang="html">
@@ -165,7 +165,7 @@ export default {};
 </style>
 ```
 
-Như vậy chúng ta đã có được trang ToDo.vue, tuy nhiên để truy cập vào trang này chúng ta cần phải thiết lập đường dẫn (route). Để chỉnh cấu hình route, chúng ta tạo file router/index.js có nội dung như sau:
+Như vậy chúng ta đã có được trang ToDo.vue, tuy nhiên để truy cập vào trang này chúng ta cần phải thiết lập đường dẫn (route). Để chỉnh cấu hình route, chúng ta tạo file **client/src/router/index.js** có nội dung như sau:
 
 ```javascript
 //Khai báo các thư viện và components cần dùng
@@ -202,7 +202,7 @@ Nếu mọi thiết lập đều chính xác thì khi truy cập vào [http://lo
 yarn add axios
 ```
 
-Trước hết, chúng ta tạo thư mục src/services và tạo file API.js bên trong src/services có nội dung như sau:
+Trước hết, chúng ta tạo thư mục **client/src/services** và tạo file **API.js** bên trong có nội dung như sau:
 
 ```javascript
 import axios from "axios";
@@ -213,7 +213,7 @@ export default () => {
 };
 ```
 
-Tạo file ToDoAPI.js có nội dung như sau:
+Tạo file **ToDoAPI.js** có nội dung như sau:
 
 ```javascript
 import API from "@/services/API";
@@ -224,13 +224,13 @@ export default {
 };
 ```
 
-Tới đây chúng ta cần điều chỉnh file ToDo.vue một số điểm như sau:
+Tới đây chúng ta cần điều chỉnh file **client/src/ToDo.vue** một số điểm như sau:
 
-- Khai báo file ToDoAPI.js trong component ToDo.vue để trang này có quyền gọi hàm getToDo()
+- Khai báo file **ToDoAPI.js** trong component **ToDo.vue** để trang này có quyền gọi hàm getToDo()
 - Dùng "Vue hook" gọi hàm bất đồng bộ (async) bằng hàm mounted() để lấy dữ liệu từ hàm getToDo()
 - Để load dữ liệu, chúng ta dùng thẻ v-for để tự điền vào todolist
 
-Nội dung điều chỉnh ToDo.vue
+Nội dung điều chỉnh **client/src/components/ToDo.vue**
 
 ```javascript
 <template lang="html">
