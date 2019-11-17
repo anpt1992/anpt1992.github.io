@@ -90,7 +90,7 @@ console.log("Your backend locate at http://localhost:8081/");
 app.listen(process.env.PORT || 8081); // backend sẽ chạy ở port 8081 (client is already running on 8080)
 ```
 
-Trong đoạn code trên có tham số YOUR*CONNECTION_STRING là chuỗi kết nối đến MongoDB của Atlas. Để lấy được chuối kết nối này chúng ta sẽ làm như sau:  
+Trong đoạn code trên có tham số YOUR\*CONNECTION*STRING là chuỗi kết nối đến MongoDB của Atlas. Để lấy được chuối kết nối này chúng ta sẽ làm như sau:  
 Đăng nhập vào Atlas, tại màn hình Dashboard click vào nút Connect, sau đó chọn Connect Your Application, sau đó chọn ngôn ngữ lập trình cũng như phiên bản tương ứng, ở đây chúng ta chọn Nodejs và 3.0 or later cuối cùng là click vào nút copy.  
 ![connect](https://w1heww.by.files.1drv.com/y4mt7ln7X_YQh4qsclg7E7AP2lvaD51hPBTD4gkpE0WOjCfzLkkNCNdvNVJoe1WhpEWRubkaaLUL00JdKakThUMsThubtsZoUiLiLe2av-6UGGECJKOfi5xtlWHes4mufmVChroSbGhcFPaNaItaYJnFqZFXwQGA_gw-I8VJu9hm103yBssFkMuq5EigNx6D8JRgL7YjILRIEGojcqoqUKSxg?width=1190&height=619&cropmode=none)  
 ![connect app](https://v1frqg.by.files.1drv.com/y4mL0kTIL_hLwXFStZTwuaQzTKR-mk0NVWpmvwBFZv9qOQwvPCCahpba7vk89OYOqwMJM8gnGfwQ0D_4*-GDKXwBSJjkthGFYRxiy11JddMe_XE2EwOPFEPR_0ixJrw99h_wMzPsD2MwuIzwLjW-8Zx6gsWapbJkEG7sSmakWbXx1yAkFmaRqrnhzGruvydth00m5Xf6gVJqIKjt-Uu0MSuLA?width=659&height=299&cropmode=none)
