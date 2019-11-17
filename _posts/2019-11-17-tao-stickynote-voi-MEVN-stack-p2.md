@@ -389,7 +389,8 @@ ol li a {
 
 Dưới đây là kết quả, nhìn cũng được quá hen :3  
 ![sticknote](https://xfhqnq.by.files.1drv.com/y4mk-5f8zLK3UJlwWriZhLc_EVLo-BEy1Mt2DfZRILHPDRir5xE39UEPELdjzqf5SrNeE_t5ZvE2wUzDMUcVWRd2SHUuo1Y9bakbkiwHGYfKcUZHYA4EEj6r4XmTv9ReO7IOgySc20KChppNIt2lVfhBqOf8o7tnVdHNh5YFDxAShywZvmUKPZZE9s5MCkOiNw8dYkg0erqaV_DaQ-ruO8Opw?width=1366&height=576&cropmode=none)  
-Kế tới là khung nhập nội dung, thêm đoạn css sau đây vào **client/src/components/ToDo.vue**
+Kế tới là khung nhập nội dung, thêm đoạn css sau đây vào  
+**client/src/components/ToDo.vue**
 
 ```javascript
 /* css cho khung nhập nội dung*/
@@ -441,7 +442,10 @@ Tiếp đó chúng ta sẽ điều chỉnh lại form nhập theo đoạn code d
 </form>
 ```
 
-Nếu để ý thì bạn sẽ thấy có tag font-awesome-icon cái này dùng để chèn icon viết note và hiển nhiên mặc định HTML không hỗ trợ tag này, để sử dụng chúng ta sẽ cài đặt thư viện **@fortawesome/fontawesome-svg-core, fortawesome/free-solid-svg-icon, @fortawesome/vue-fontawesome**.
+Nếu để ý thì bạn sẽ thấy có tag font-awesome-icon cái này dùng để chèn icon viết note và hiển nhiên mặc định HTML không hỗ trợ tag này, để sử dụng chúng ta sẽ cài đặt thư viện  
+**@fortawesome/fontawesome-svg-core**  
+**fortawesome/free-solid-svg-icon**  
+**@fortawesome/vue-fontawesome**
 
 ```bash
 yarn add @fortawesome/fontawesome-svg-core fortawesome/free-solid-svg-icon @fortawesome/vue-fontawesome
@@ -495,10 +499,10 @@ p {
 }
 ```
 
-![final](https://wlhqnq.by.files.1drv.com/y4maTZ1VPDeXqNiBcnYc5FyWdvuVFqStxi7cpxbOeodhDOpC12FQF65-ADUF0Ywl0LP_o66xHlyMq363LJMzJJktPvHRVRuSHTdjczPUwQqWdo_AM2tfQAjRYKDguuuxmuGgSzCL-1aynacb7_E_jKKnJ2kdlF_RtKxDsrUQ7_fN1u3f5vKlKHNIhwFbS_w8cp99Iznc1G8mBzQtUsc78ebOA?width=1366&height=576&cropmode=none)
-Tèn ten, như vậy chúng ta đã hoàn thành xong một web app Sticky note bằng stack MEVN hi vọng demo nhỏ này có thể tạo truyền cảm hứng để các bạn tạo ra những sản phẩm đẹp mắt và sáng tạo hơn.
-[Github code mẫu cho bạn nào cần nhé](https://github.com/anpt1992/demo/tree/master/mevn_stickynote_p2)
-Bài viết được lược dịch và sử dụng tài nguyên từ các bài viết:
+![final](https://wlhqnq.by.files.1drv.com/y4maTZ1VPDeXqNiBcnYc5FyWdvuVFqStxi7cpxbOeodhDOpC12FQF65-ADUF0Ywl0LP_o66xHlyMq363LJMzJJktPvHRVRuSHTdjczPUwQqWdo_AM2tfQAjRYKDguuuxmuGgSzCL-1aynacb7_E_jKKnJ2kdlF_RtKxDsrUQ7_fN1u3f5vKlKHNIhwFbS_w8cp99Iznc1G8mBzQtUsc78ebOA?width=1366&height=576&cropmode=none)  
+Tèn ten, như vậy chúng ta đã hoàn thành xong một web app Sticky note bằng stack MEVN hi vọng demo nhỏ này có thể tạo truyền cảm hứng để các bạn tạo ra những sản phẩm đẹp mắt và sáng tạo hơn.  
+[Github code mẫu cho bạn nào cần nhé](https://github.com/anpt1992/demo/tree/master/mevn_stickynote_p2)  
+Bài viết được lược dịch và sử dụng tài nguyên từ các bài viết:  
 [MEVN Todo app](https://medium.com/@mattmaribojoc/creating-a-todo-app-with-a-mevn-full-stack-part-2-8180d944233a)  
 [Html + css sticky note](https://code.tutsplus.com/tutorials/create-a-sticky-note-effect-in-5-easy-steps-with-css3-and-html5--net-13934)  
 [Html + css form](https://codepen.io/huange/pen/rbqsD)
