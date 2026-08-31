@@ -1,16 +1,15 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Về mình
+subtitle: Một người yêu tự do và thích những điều mới mẻ!
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hi, mình là **An** 👋
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Mình thích khám phá những điều mới, từ công nghệ, những ý tưởng thú vị cho đến những chuyến đi và nấu những món ăn ngon.
 
-What else do you need?
+Mình làm trong lĩnh vực công nghệ và thích nhất việc **dùng công nghệ để biến những vấn đề phức tạp thành thứ đơn giản hơn**.
 
-### My story
+Blog này là một góc nhỏ để mình ghi lại những thứ mình học được, những project mình làm, và đôi khi là vài thứ linh tinh mà mình thấy thú vị.
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+**Build things. Learn things. Enjoy the journey.**
