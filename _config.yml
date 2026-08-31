@@ -10,21 +10,24 @@
 ############################
 
 # Name of website
-title: My website
+title: ANPT Blog
 
 # Your name to show in the footer
-author: Some Person
+author: Phạm An
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Chủ đề:
+    - Làm blog: "tags#Làm blog"
+    - Lập trình web: "tags#Lập trình web"
+    - Công cụ: "tags#Công cụ"
+    - Cuộc sống: "tags#Cuộc sống"
+  Tất cả bài viết: "tags"
+  Về mình: "aboutme"
+
 
 ################
 # --- Logo --- #
@@ -32,15 +35,14 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+avatar: "/img/avatar.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
-
+title-img: "/img/avatar.jpg"
 
 #####################################
 # --- Footer social media links --- #
@@ -50,43 +52,13 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
-#  medium: yourname
-#  reddit: yourname or r/yoursubreddit
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
-#  mastodon: instance.url/@username
-#  bluesky: yourname
-#  ORCID: your ORCID ID
-#  google-scholar: your google scholar
-#  discord: "invite_code" or "users/userid" or "invite/invite_code"
-#  kaggle: yourname
-#  hackerrank: yourname
-#  gitlab: yourname
-#  itchio: yourname
-#  untappd: yourname
-#  strava: youruserid
+  email: "anpt2009@outlook.com"
+  facebook: anpt1992
+  github: anpt1992
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: Nơi lưu lại những điều hay ho!
 
 ###########################
 # --- General options --- #
@@ -102,7 +74,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+#url-pretty: "anpt1992.github.io"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -120,7 +92,7 @@ feed_show_tags: true
 post_search: true
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: true
+edit_page_button: false
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
@@ -140,10 +112,10 @@ page-col: "#FFFFFF"
 text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
+navbar-col: "#F5F5F5"
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
+footer-col: "#F5F5F5"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
@@ -159,8 +131,8 @@ footer-hover-col: "#0085A1"
 #mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
-#site-css:
-#  - "/assets/css/custom-styles.css"
+site-css:
+  - "/assets/css/custom-styles.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
@@ -187,17 +159,12 @@ footer-hover-col: "#0085A1"
 #  uri: "demo.wiki.pro"
 #  opt-out: true
 
-# Google Universal Analytics ID -- deprecated
-# As of July 2023 this is no longer supported by Google! If you are still using `google_analytics`,
-# you should switch to using the `gtag` field above instead.
-#google_analytics: "UA-XXXXXXXX-X"
-
 ####################
 # --- Comments --- #
 ####################
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-#disqus: ""
+disqus: "anpt1992"
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
 #fb_comment_id: ""
@@ -214,20 +181,6 @@ footer-hover-col: "#0085A1"
 #  issue-term: title   # Mapping between blog posts and GitHub issues
 #  theme: github-light # Utterances theme
 #  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
-
-# To use Staticman comments, uncomment the following section. You may leave the reCaptcha
-# section commented if you aren't using reCaptcha for spam protection.
-# Using Staticman requires advanced knowledge, please consult
-# https://github.com/eduardoboucas/staticman/ and https://staticman.net/ for further
-# instructions. For any support with staticman please direct questions to staticman and
-# not to BeautifulJekyll.
-#staticman:
-#  repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
-#  branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
-#  endpoint   : # URL of your deployment, with a trailing slash eg. "https://<your-api>/v3/entry/github/"
-#  reCaptcha:   # (optional, set these parameters in `staticman.yml` as well)
-#    siteKey  : # You need to apply for a site key on Google
-#    secret   : # Encrypt your password by going to https://<your-own-api>/v3/encrypt/<your-site-secret>
 
 # To use giscus comments:
 # (0) Uncomment the following giscus section, (1) Enable Discussions in your GitHub repository,
@@ -260,7 +213,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Asia/Ho_Chi_Minh"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -284,6 +237,7 @@ defaults:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
+      show-avatar: true
 
 # Exclude these files from production site
 exclude:
@@ -302,4 +256,3 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
