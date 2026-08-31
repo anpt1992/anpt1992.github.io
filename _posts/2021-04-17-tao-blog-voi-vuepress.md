@@ -6,10 +6,11 @@ tags: [Frontend, Vuepress]
 category: "Tutorials"
 --- 
 ## Mục lục
-[1. Tạo project vue press](#section1)  
-[2. Cài theme blog cho vue press](#section2)  
-[3. Viết components để hiển thị bài viết](#section3)  
-[4. Một số chỉnh sửa nho nhỏ cho trang blog](#section4)  
+
+1. [Tạo project vue press](#section1)
+2. [Cài theme blog cho vue press](#section2)
+3. [Viết components để hiển thị bài viết](#section3)
+4. [Một số chỉnh sửa nho nhỏ cho trang blog](#section4)
 
 ## 1. Tạo project vue press<a name="section1"></a>
 

@@ -11,9 +11,9 @@ Mừng các bạn đã quay trở lại với series Tạo Sticky note với MEV
 
 ## Mục lục
 
-[1. Tạo project Nodejs](#section1)  
-[2. Cấu hình reverse proxy cho IIS](#section2)
-[3. Cài pm2 để Nodejs chạy production](#section3) 
+1. [Tạo project Nodejs](#section1)
+2. [Cấu hình reverse proxy cho IIS](#section2)
+3. [Cài pm2 để Nodejs chạy production](#section3)
 
 ## 1. Tạo project Nodejs<a name="section1"></a>
 

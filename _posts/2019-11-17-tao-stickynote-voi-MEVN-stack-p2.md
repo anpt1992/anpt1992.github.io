@@ -11,13 +11,13 @@ Mừng các bạn đã quay trở lại với series Tạo Sticky note với MEV
 
 ## Mục lục
 
-[1. Tạo MongoDB trên MongoAtlas](#section1)  
-[2. Thiết lập kết nối MongoDB](#section2)  
-[3. Tạo bảng (Collection) với MongoDB](#section3)  
-[4. Truy cập Collection trong NodeJS](#section4)  
-[5. Ghi dữ liệu xuống database](#section5)  
-[6. Xóa những note đã làm xong](#section7)  
-[7. Màu mè hoa lá hẹ cho đẹp mắt](#section8)
+1. [Tạo MongoDB trên MongoAtlas](#section1)
+2. [Thiết lập kết nối MongoDB](#section2)
+3. [Tạo bảng (Collection) với MongoDB](#section3)
+4. [Truy cập Collection trong NodeJS](#section4)
+5. [Ghi dữ liệu xuống database](#section5)
+6. [Xóa những note đã làm xong](#section7)
+7. [Màu mè hoa lá hẹ cho đẹp mắt](#section8)
 
 ## 1. Tạo MongoDB trên MongoAtlas<a name="section1"></a>
 

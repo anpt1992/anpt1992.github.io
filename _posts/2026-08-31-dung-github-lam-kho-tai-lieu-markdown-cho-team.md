@@ -9,11 +9,11 @@ date: 2026-08-31
 Dạo này nhờ có AI mà việc hiện thực hóa ý tưởng nhanh và ít tốn công hơn hẳn. Xuất phát từ nhu cầu cá nhân là muốn có một trang chia sẻ tài liệu kỹ thuật nội bộ cho team với chi phí rẻ nhất có thể, mình đã cùng AI "chốt đơn" một giải pháp khá gọn: **GitHub làm kho lưu trữ và phân quyền, Cloudflare làm nơi host app và lo luôn CI/CD**. Bài viết này ghi lại quá trình tư duy để đi đến thiết kế đó.
 
 ## Mục lục
-[1. Bài toán](#section1)  
-[2. Chọn kho lưu trữ: GitHub](#section2)  
-[3. Bài toán xác thực](#section3)  
-[4. Hosting và CI/CD với Cloudflare](#section4)  
-[5. Thiết kế tổng thể](#section5)  
+1. [Bài toán](#section1)
+2. [Chọn kho lưu trữ: GitHub](#section2)
+3. [Bài toán xác thực](#section3)
+4. [Hosting và CI/CD với Cloudflare](#section4)
+5. [Thiết kế tổng thể](#section5)
 
 ## 1. Bài toán<a name="section1"></a>
 
