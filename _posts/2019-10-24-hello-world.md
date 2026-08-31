@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello world!
-image: /img/hello_world.jpeg
+thumbnail-img: /img/hello_world.jpeg
 category: "Life"
 categories: [Life]
 tags: [Life]

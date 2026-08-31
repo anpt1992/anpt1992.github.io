@@ -2,7 +2,7 @@
 layout: post
 title: Useful commands
 subtitle: for developer :D
-bigimg: /img/code.png
+cover-img: /img/code.png
 tags: [tips, tricks]
 ---
 
