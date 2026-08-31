@@ -1,0 +1,4 @@
+/* Justify body text in blog posts */
+article.blog-post {
+  text-align: justify;
+}
